@@ -1,0 +1,16 @@
+MeshBlueprint {
+    LODs = {
+        {
+            MeshName = '/meshes/generic/cube01_lod0.scm',
+			#MeshName = '/effects/Entities/UAB2109_Dome/UAB2109_Dome_lod0.scm',
+			#MeshName = '/effects/Entities/SphereSection01/SphereSection01_lod0.scm',
+			#MeshName = '/effects/Entities/Sphere01/Sphere01_lod0.scm',
+            AlbedoName = '/effects/Entities/Shield01/Shield01_Albedo.dds',
+            SpecularName = '/effects/Entities/Shield01/Shield01_Specular.dds',
+            SecondaryName = '/effects/Entities/Shield01/Shield01_Secondary.dds',
+            ShaderName = 'ShieldUEF',
+            LODCutoff = 200,
+        },
+    },
+    SortOrder = 1000,
+}

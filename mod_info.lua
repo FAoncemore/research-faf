@@ -1,0 +1,16 @@
+name = "Research FAF"
+uid = "6fd12870-02ea-4d9a-a39a-fe1a92f4ea80"
+version = 12
+copyright = ""
+description = "Like SC2, build Research Lab to generate points, or collect points from kills,  use points to upgrade units or field supports. IMBA mod specially for AI player & survival map, go to mods/Research FAF/lua/ui/InitialData.lua and make InitialAbility to your own number. Special thanks to CDRMV, Mithy & BlackOps Team, I use their codes."
+author = "FAoncemore"
+icon = "/mods/Research FAF/Research_icon.png"
+selectable = true
+enabled = true
+exclusive = false
+ui_only = false
+requires = { }
+requiresNames = { }
+conflicts = {"3ddc4fca-d0ae-435d-94ad-3287061937ce"} -- EventAlert FAF
+before = { }
+after = { }

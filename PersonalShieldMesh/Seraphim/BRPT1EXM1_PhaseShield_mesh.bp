@@ -1,0 +1,15 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/mods/TotalMayhem/units/BRPT1EXM1/BRPT1EXM1_lod0.scm',
+            AlbedoName = '/mods/TotalMayhem/units/BRPT1EXM1/BRPT1EXM1_Albedo.dds',
+            NormalsName = '/mods/TotalMayhem/units/BRPT1EXM1/BRPT1EXM1_NormalsTS.DDS',
+            SpecularName = '/mods/TotalMayhem/units/BRPT1EXM1/BRPT1EXM1_SpecTeam.dds',
+            LookupName = '/textures/environment/Falloff_seraphim_lookup.dds',
+			SecondaryName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+			ShaderName = 'SeraphimPersonalShield',
+            LODCutoff = 195,
+        },
+    },
+}

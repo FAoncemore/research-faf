@@ -1,0 +1,15 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/units/xsl0309/xsl0309_lod0.scm',
+            AlbedoName = '/units/xsl0309/xsl0309_albedo.dds',
+            NormalsName = '/units/xsl0309/xsl0309_normalsTS.dds',
+            SpecularName = '/units/xsl0309/xsl0309_specteam.dds',
+            LookupName = '/textures/environment/Falloff_seraphim_lookup.dds',
+			SecondaryName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+			ShaderName = 'SeraphimPersonalShield',
+            LODCutoff = 195,
+        },
+    },
+}

@@ -1,0 +1,14 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/mods/TotalMayhem/units/BROT3HM/BROT3HM_lod0.scm',
+            AlbedoName = '/mods/TotalMayhem/units/BROT3HM/BROT3HM_albedo.dds',
+            NormalsName = '/mods/TotalMayhem/units/BROT3HM/BROT3HM_NormalsTS.dds',
+            SpecularName = '/mods/TotalMayhem/units/BROT3HM/BROT3HM_SpecTeam.dds',
+            LookupName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+            ShaderName = 'PhaseShield',
+            LODCutoff = 195,
+        },
+    },
+}

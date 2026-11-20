@@ -1,0 +1,14 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/mods/TotalMayhem/units/BRMT2HT/BRMT2HT_lod0.scm',
+            AlbedoName = '/mods/TotalMayhem/units/CybranTexture/CybranTexture_albedo.dds',
+            NormalsName = '/mods/TotalMayhem/units/BRMT2HT/BRMT2HT_NormalsTS.DDS',
+            SpecularName = '/mods/TotalMayhem/units/BRMT2HT/BRMT2HT_SpecTeam.dds',
+            LookupName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+            ShaderName = 'PhaseShield',
+            LODCutoff = 195,
+        },
+    },
+}

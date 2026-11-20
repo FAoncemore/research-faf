@@ -1,0 +1,13 @@
+
+MeshBlueprint {
+    LODs = {
+        {
+            AlbedoName = '/meshes/game/Repair_Albedo.dds',
+            ShaderName = 'CommandFeedback3',
+            LODCutoff = 200,
+            MeshName = '/meshes/game/Repair_lod0.scm',
+        },
+    },
+    IconFadeInZoom = 100,
+    UniformScale = 1.0,
+}

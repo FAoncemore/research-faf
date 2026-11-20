@@ -1,0 +1,14 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/mods/TotalMayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_lod0.scm',
+            AlbedoName = '/mods/TotalMayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_Albedo.dds',
+            NormalsName = '/mods/TotalMayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_NormalsTS.DDS',
+            SpecularName = '/mods/TotalMayhem/units/BRMAT2GUNSHIP/BRMAT2GUNSHIP_SpecTeam.dds',
+            LookupName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+            ShaderName = 'PhaseShield',
+            LODCutoff = 195,
+        },
+    },
+}

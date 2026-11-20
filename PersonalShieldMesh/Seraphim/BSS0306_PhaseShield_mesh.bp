@@ -1,0 +1,15 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/mods/BlackOpsFAF-Unleashed/units/bss0306/bss0306_lod0.scm',
+            AlbedoName = '/mods/BlackOpsFAF-Unleashed/units/bss0306/bss0306_albedo.dds',
+            NormalsName = '/mods/BlackOpsFAF-Unleashed/units/bss0306/bss0306_normalsTS.dds',
+            SpecularName = '/mods/BlackOpsFAF-Unleashed/units/bss0306/bss0306_specteam.dds',
+            LookupName = '/textures/environment/Falloff_seraphim_lookup.dds',
+			SecondaryName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+			ShaderName = 'SeraphimPersonalShield',
+            LODCutoff = 195,
+        },
+    },
+}

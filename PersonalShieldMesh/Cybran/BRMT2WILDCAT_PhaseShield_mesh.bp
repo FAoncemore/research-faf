@@ -1,0 +1,14 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/mods/TotalMayhem/units/BRMT2WILDCAT/BRMT2WILDCAT_lod0.scm',
+            AlbedoName = '/mods/TotalMayhem/units/BRMT2WILDCAT/BRMT2WILDCAT_albedo.dds',
+            NormalsName = '/mods/TotalMayhem/units/BRMT2WILDCAT/BRMT2WILDCAT_NormalsTS.DDS',
+            SpecularName = '/mods/TotalMayhem/units/BRMT2WILDCAT/BRMT2WILDCAT_SpecTeam.dds',
+            LookupName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+            ShaderName = 'PhaseShield',
+            LODCutoff = 195,
+        },
+    },
+}

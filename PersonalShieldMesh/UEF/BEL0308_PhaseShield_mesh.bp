@@ -1,0 +1,14 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/mods/BlackOpsFAF-Unleashed/units/bel0308/bel0308_lod0.scm',
+            AlbedoName = '/mods/BlackOpsFAF-Unleashed/units/bel0308/bel0308_albedo.dds',
+            NormalsName = '/mods/BlackOpsFAF-Unleashed/units/bel0308/bel0308_normalsTS.dds',
+            SpecularName = '/mods/BlackOpsFAF-Unleashed/units/bel0308/bel0308_specteam.dds',
+            LookupName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+            ShaderName = 'PhaseShield',
+            LODCutoff = 195,
+        },
+    },
+}

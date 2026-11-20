@@ -1,0 +1,14 @@
+MeshBlueprint {
+    IconFadeInZoom = 130,
+    LODs = {
+        {
+            MeshName = '/mods/TotalMayhem/units/BRNT2SNIPER/BRNT2SNIPER_lod0.scm',
+            AlbedoName = '/mods/TotalMayhem/units/BRNT2SNIPER/BRNT2SNIPER_albedo.dds',
+            NormalsName = '/mods/TotalMayhem/units/BRNT2SNIPER/BRNT2SNIPER_normalsTS.dds',
+            SpecularName = '/mods/TotalMayhem/units/BRNT2SNIPER/BRNT2SNIPER_specteam.dds',
+            LookupName = '/effects/entities/PhaseShield/PhaseShieldLookup.dds',
+            ShaderName = 'PhaseShield',
+            LODCutoff = 195,
+        },
+    },
+}
